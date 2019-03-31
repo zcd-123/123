@@ -21,8 +21,8 @@ zuul:
   routes:
     sbUser.serviceId: plat-service
     sbUser.path: /plat/**
-    productUser.serviceId: plat-service
-    productUser.path: /plat/**
+    productUser.serviceId: product-service
+    productUser.path: /product/**
 ---
 server:
   port: 9528
@@ -43,6 +43,6 @@ zuul:
   routes:
     sbUser.serviceId: plat-service
     sbUser.path: /plat/**
-    productUser.serviceId: plat-service
-    productUser.path: /plat/**
+    productUser.serviceId: product-service
+    productUser.path: /product/**
     
