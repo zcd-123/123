@@ -13,7 +13,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: localhost:9527
+    instance-id: geteway-9527.com
     prefer-ip-address: true
 zuul:
   prefix: "/aigou"
@@ -35,7 +35,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: localhost:9527
+    instance-id: geteway-9527.com
     prefer-ip-address: true
 zuul:
   prefix: "/aigou"
@@ -45,4 +45,5 @@ zuul:
     sbUser.path: /plat/**
     productUser.serviceId: product-service
     productUser.path: /product/**
+    
     
