@@ -23,6 +23,8 @@ zuul:
     sbUser.path: /plat/**
     productUser.serviceId: product-service
     productUser.path: /product/**
+    commonUser.serviceId: common-service
+    commonUser.path: /common/**
 ---
 server:
   port: 9528
@@ -45,5 +47,7 @@ zuul:
     sbUser.path: /plat/**
     productUser.serviceId: product-service
     productUser.path: /product/**
+    commonUser.serviceId: common-service
+    commonUser.path: /common/**
     
     
